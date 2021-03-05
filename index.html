@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            header{
+                background-color: #28abe3;
+            }
+            header img{
+                width: 90px;
+                margin-top: 5px;
+                float: left;
+            }
+            header h1{
+                text-align: center;
+                padding: 10px;
+                font-size: 4em;
+                color: beige;
+                text-shadow: 1px 1px 1px grey;
+            }
+            
+            /*.......Style NavBar.......*/
+            nav ul{
+                background-color: #2980b9;
+            }
+            nav ul li,
+            nav ul li a{
+                display: inline-block;
+                color: #FFF;
+            }
+            nav ul li a:link,
+            nav ul li a:visited{
+                text-decoration: none;
+                padding: 10px;
+                transition: all 0.2s;
+            }
+            nav ul li a:hover,
+            nav ul li a:active{
+                background-color: #409ad5;
+            }
+            nav .search{
+                float: right;
+                margin-top: 9px;
+                margin-right: 70px;
+                width: 20%;
+                height:20px;
+                border-radius: 2px;
+                border: none;
+                text-indent: 5px;
+            }
+            
+            /*......Main Body design.....*/
+            section{
+                background-color: #efefef;
+                margin: 10px;
+                width: 70%;
+                float: left;
+            }
+            
+            article{
+            
+            }
+            article .img{
+                width: 50px;
+                height: 50px;
+                margin: 2px;
+                float: left;
+                border-radius: 100px;
+            }
+            article .img2{
+                width: 100%;
+                height: 50%;
+            }
+            article p{
+                padding: 5px;
+            }
+            article a{
+                color: brown;
+            }
+            
+            /*.....aside bar design.....*/
+            aside{
+                background-color: #efefef;
+                float: right;
+                margin: 10px;
+                width: 25%;
+            }
+            aside h3{
+                text-align: center;
+                background-color: #afafaf;
+                color: #FFF;
+                padding: 10px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            
+            aside ul li,
+            aside ul li a{
+                text-indent: 10px;
+                display: block;
+            }
+            aside ul li a:link,
+            aside ul li a:visited{
+                text-decoration:none ;
+                color: #000;
+                font-size: 1.1em;
+                padding: 10px;
+                transition:all 0.5s;
+            }
+            aside ul li a:hover,
+            aside ul li a:active{
+                text-indent: 20px;
+                background-color: #cfcfcf;
+            }
+            
+            /*....Footer Design...*/
+            footer{
+                background-color: #28abe3;
+                clear: both;
+                text-align:center ;
+                color: #FFF;
+                padding: 10px;
+            }            
+        </style>
+    </head>
+<body>
+    <header>
+        <img src="images/img2.jpeg" alt="My Image">
+        <h1>My Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Signup</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Complaint</a></li>
+            <li><a href="#">Feedback</a></li>
+            <input type="Search" name="" placeholder="Search" class="search">
+        </ul>
+    </nav>
+
+    <section>
+        <article>
+            <!-- 2 dots because the image is inside the 2 directories 1)HHM and 2)Images-->
+            <img src="images/pic1.jpg" alt="photo" class="img">
+            <h2>About Myself</h2>
+            <p>Date:03-03-2021</p>
+            <img src="images/pic2.jpg" alt="image1" class="img2">
+            <p>
+                There have been documented problems caused by open, anonymous gatherings of people in Wikipedia,
+                such as the writing of vitriol (noted in 2003) or wiki-gangs (noted in July 2005). Another problem is
+                that anyone can edit articles at any time, so people can vandalize articles, as long as they have an
+                account.
+            </p>
+            <a href="#">Read More....</a>
+        </article>
+        <br /><hr /><br />
+
+        <article>
+            <img src="images/pic1.jpg" alt="help_photo" class="img">
+            <h2>About Myself</h2>
+            <p>Date:03-03-2021</p>
+            <img src="images/pic7.jpg" alt="image4" class="img2">
+            <p>
+                There have been documented problems caused by open, anonymous gatherings of people in Wikipedia,
+                such as the writing of vitriol (noted in 2003) or wiki-gangs (noted in July 2005). Another problem is
+                that anyone can edit articles at any time, so people can vandalize articles, as long as they have an
+                account.
+            </p>
+            <a href="#">Read More....</a>
+        </article>
+        <br /><hr /><br />
+        <article>
+            <img src="images/pic1.jpg" alt="photo" class="img">
+            <h2>About Myself</h2>
+            <p>Date:03-03-2021</p>
+            <img src="images/pic4.jpg" alt="image1" class="img2">
+            <p>
+                There have been documented problems caused by open, anonymous gatherings of people in Wikipedia,
+                such as the writing of vitriol (noted in 2003) or wiki-gangs (noted in July 2005). Another problem is
+                that anyone can edit articles at any time, so people can vandalize articles, as long as they have an
+                account.
+            </p>
+            <a href="#">Read More....</a>
+        </article>
+    </section>
+
+
+    <aside>
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="#">Today's Weather</a></li>
+            <li><a href="#">City Weather</a></li>
+            <li><a href="#">Contry Weather</a></li>
+        </ul>
+    </aside>
+    <aside>
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="#">Today's Weather</a></li>
+            <li><a href="#">City Weather</a></li>
+            <li><a href="#">Contry Weather</a></li>
+        </ul>
+    </aside>
+    <aside>
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="#">Today's Weather</a></li>
+            <li><a href="#">City Weather</a></li>
+            <li><a href="#">Contry Weather</a></li>
+        </ul>
+    </aside>
+    <aside>
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="#">Today's Weather</a></li>
+            <li><a href="#">City Weather</a></li>
+            <li><a href="#">Contry Weather</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy; My Website2021</p>
+    </footer>
+</body>
+</html>
